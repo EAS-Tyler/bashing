@@ -1,0 +1,16 @@
+#mv $LOC/*.txt ./txts/
+#mv $LOC/*.png ./pngs/
+#mv $LOC/*.doc ./docs/
+
+#TXT=*.txt
+
+#for $TXT in $CONT
+#do
+#       mv $TXT $LOC/txts/
+#       log
+#done
+
+#for file in $($CONT *.txt)
+#       do
+#       mv $file $LOC/txts/
+#done

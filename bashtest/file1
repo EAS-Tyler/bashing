@@ -1,0 +1,7 @@
+#!/bin/bash
+FIRST=Tyler
+LAST=Richards
+echo What is your dogs name?
+read DOG
+echo $FIRST $LAST has a dog named $DOG
+

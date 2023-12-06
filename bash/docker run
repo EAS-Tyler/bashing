@@ -1,0 +1,3 @@
+docker run -v ./:/workspace -it ubuntu ls
+
+docker run --rm -v ./ : /workspace -it ubuntu:vim bash

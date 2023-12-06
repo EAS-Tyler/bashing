@@ -1,0 +1,32 @@
+REPORT - Disk space, Memory usage and CPU usage
+ 
+Disk space:
+ 
+Filesystem        Size  Used Avail Use% Mounted on
+overlay            63G  2.5G   57G   5% /
+tmpfs              68M     0   68M   0% /dev
+shm                68M     0   68M   0% /dev/shm
+/host_mark/Users  495G   61G  434G  13% /workspace
+/dev/vda1          63G  2.5G   57G   5% /etc/hosts
+tmpfs             4.2G     0  4.2G   0% /sys/firmware
+ 
+ 
+Memory usage:
+ 
+               total        used        free      shared  buff/cache   available
+Mem:         8032760      675824     4274708        2644     3082228     7151576
+Swap:        1048572           0     1048572
+ 
+ 
+CPU usage:
+ 
+top       -      14:12:36  up      5:31,     0       users,     load   average:  0.00,   0.02,       0.00                            
+Tasks:    4      total,    1       running,  3       sleeping,  0      stopped,  0       zombie                                      
+%Cpu(s):  0.0    us,       0.6     sy,       0.0     ni,        99.4   id,       0.0     wa,         0.0         hi,  0.0  si,  0.0  st
+MiB       Mem    :         7844.5  total,    4174.5  free,      660.0  used,     3010.0  buff/cache                                  
+MiB       Swap:  1024.0    total,  1024.0    free,   0.0        used.  6984.0    avail   Mem                                         
+PID       USER   PR        NI      VIRT      RES     SHR        S      %CPU      %MEM    TIME+       COMMAND                         
+1         root   20        0       4136      3328    2816       S      0.0       0.0     0:01.08     bash                            
+494       root   20        0       4004      3072    2816       S      0.0       0.0     0:00.00     monitor.sh                      
+497       root   20        0       6580      2688    2304       R      0.0       0.0     0:00.00     top                             
+498       root   20        0       2380      1280    1280       S      0.0       0.0     0:00.00     column                          
