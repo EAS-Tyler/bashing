@@ -2,8 +2,9 @@
 
 The task set was to create a bash script that organises files based on their extensions into corresponding subdirectories, and also creates a log file that lists all the files and their corresponding directories.
 
-UPDATE CH1
+**UPDATE CH1
 - Did successfully get the organiser to work, but then toyed around with it afterwards to improve it. Did not finish these improvements, and now organiser is non-functional 
+**
 
 I successfully created a bash script to organise these files, making use of the mv command, variables to declare file path, and wildacrds to identify file type. I used the "*" wildcard for this e.g. *.txt.
 
